@@ -1,2 +1,2 @@
-# Project Name
-Simple NFL quarterback touchdown prediction model using 
+# QB Touchdown Predictions
+This project is a simple NFL quarterback touchdown prediction model built using linear regression. It uses historical play-by-play data to predict quarterback performance, specifically focusing on touchdowns. To use this project, you will need to download and upload the necessary NFL season data to your working directory, as no automated data-pulling (e.g., API integration or pull requests) is implemented. The required datasets can be found in the following repository: https://github.com/nflverse/nflverse-data/releases/tag/pbp. The analysis focuses on the 2023 NFL season, with any seasons prior to 2023 available for training the model. Generally, the number of seasons used for training is positively correlated with the accuracy of the predictions—more training data typically results in a more robust model.
